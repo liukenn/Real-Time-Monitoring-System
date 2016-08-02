@@ -1,0 +1,390 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-image: url("../resource/backgroundPic/body_bg_page.jpg");
+  background-repeat:repeat-;
+  background-position: top;
+  background-color: #D9DDE6;
+
+
+}
+body {
+  
+  text-align: left;
+
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.02);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.02);
+  background-position:top;
+  background-color:#BFBFBF;
+  background-repeat:no-repeat;
+  background-image:url(../resource/backgroundPic/body_bg_page.jpg);
+  background-color: #D9DDE6;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.pic-container{
+    background-color: yellow;
+    margin-right: auto;
+  margin-left: auto;
+}
+/* Padding for spacing */
+.inner {
+  padding: 0px;
+}
+.topicPic{
+  width: 150px;
+  border-radius: 6px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+.userPic{
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.topic_info_wrapper{
+  width: 900px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.topic_info{
+  width: 870px;
+  margin: 4px auto 4px auto;
+  color: black;
+  padding:10px 0 5px 0;
+  
+}
+.top{
+  width:900px;
+  height: 150px;
+  margin: -20px auto 20px auto;
+}
+.topleft{
+  width:150px;
+  height: 150px;
+  background-color:transparent;
+  float: left;
+ box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.topright{
+  width: 750px;
+  height: 150px;
+  float: left;
+
+}
+.pic{
+  width: 150px;
+  height: 150px;
+  padding: 2px 2px 2px 2px;
+}
+.righttop{
+  height:80px;
+  width: 750px;
+}
+.rightbuttom{
+  height: 70px;
+  width: 750px;
+  background-color: white;
+  padding: 20px 40px 5px 40px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  vertical-align: middle;
+}
+.middle{
+  width: 900px;
+  height: 300px;
+  margin: 20px auto 0 auto;
+
+}
+.middleleft{
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  float: left;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.middleright{
+  width: 280px;
+  height: 300px;
+  margin-left: 20px;
+  float: left;
+
+}
+.fenlei{
+  width: 280px;
+  height: 70px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 0 0 0;
+  background-color: white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.space{
+  width: 280px;
+  height: 30px;
+
+}
+.fenlei1{
+  width: 90px;
+  height: 50px;
+  float: left;
+}
+.fenlei2{
+  width: 100px;
+  height: 50px; 
+  float: left;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #D9D9D9;
+}
+.fenlei3{
+  width: 90px;
+  height: 50px;
+  float: right;
+}
+.guanyu{
+ 
+  width: 280px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.s_txt{
+  color: #808080;
+  line-height: 14px;
+}
+.w_f{
+  display: block;
+  font-family: Tahoma;
+  font-weight: 400;
+  margin: 2px 0px 6px;
+  font-size: 12px;
+}
+.biaoti{
+  line-height: 38px;
+  font-size: 12px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #D9D9D9;
+}
+.neirong{
+  margin: 20px 0 0 20px;
+
+}
+.title{
+
+  display: inline;
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 38px;
+  margin-left: 20px;
+}
+.s_txt_f{
+  color: #808080;
+}
+.box{
+  width: 580px;
+  height: 240px;
+  margin: 10px 10px 10px 10px;
+  color: black;
+}
+.picitems_ul{
+  list-style: none;
+  margin: 0px 0px 0px 15px;
+  display: block;
+}
+.picitem{
+  margin: 15px 10px 0px 0px;
+  float: left;
+  display: inline;
+  font-size: 12px;
+  padding: 0px;
+  width: 50px;
+}
+.midbox{
+  margin: 0px;
+  padding: 0px;
+  width: 50px;
+}
+.pic_warp{
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+.name{
+  width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: black;
+  
+}
+.pic_box{
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D9D9D9;
+}
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    
+  }
+  .hotTopic{
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 900px;
+  }
+}
